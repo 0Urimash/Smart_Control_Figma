@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperar senha - Smart Control</title>
+    <link rel="stylesheet" href="assets/css/login.css">
+</head>
+<body>
+    <main class="container">
+        <div class="card" id="info-login">
+            <img src="https://img.cdndsgni.com/preview/13783263-m.jpg" alt="Foto de perfil do Usuário" width="100" height="100">
+
+            <form id="formRecuperarSenha" method="post" action="index.html">
+                <h1>Recuperar senha</h1>
+
+                <label for="emailRecuperacao">E-mail:</label>
+                <input type="email" name="email" id="emailRecuperacao" placeholder="Digite seu e-mail" required>
+
+                <label for="novaSenha">Nova senha:</label>
+                <input type="password" name="novaSenha" id="novaSenha" placeholder="Digite sua nova senha" required>
+
+                <label for="confirmarSenha">Confirmar senha:</label>
+                <input type="password" name="confirmarSenha" id="confirmarSenha" placeholder="Confirme sua nova senha" required>
+
+                <button type="submit">Salvar nova senha</button>
+                <button type="button" onclick="location.href='index.html'">Voltar ao login</button>
+            </form>
+        </div>
+    </main>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+@import url('dashboard.css');
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+header {
+    width: min(100%, 540px);
+    justify-content: center;
+    margin-bottom: 18px;
+    border-radius: 24px;
+}
+
+form {
+    width: min(100%, 540px);
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.14);
+    border-radius: 24px;
+    box-shadow: 0 20px 45px rgba(0,0,0,0.16);
+    padding: 30px 24px;
+    display: grid;
+    gap: 16px;
+}
+
+form h1 {
+    margin: 0 0 12px;
+    text-align: center;
+    font-size: clamp(2rem, 3vw, 2.5rem);
+    color: #1b1b1b;
+}
+
+label {
+    font-weight: 700;
+    color: #1b1b1b;
+}
+
+input {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid rgba(27,27,27,0.18);
+    border-radius: 12px;
+    font-size: 1rem;
+    background: rgba(255,255,255,0.12);
+    color: #1b1b1b;
+}
+
+form a,
+body > a,
+footer a {
+    color: #1b1b1b;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+form a {
+    display: inline-block;
+    text-align: center;
+    padding: 12px 16px;
+    border-radius: 12px;
+    background: rgba(255,255,255,0.12);
+    border: 1px solid rgba(255,255,255,0.14);
+}
+
+body > a {
+    display: inline-block;
+    margin-top: 18px;
+}
+
+footer {
+    margin-top: 22px;
+    text-align: center;
+    width: 100%;
+}
+
+@media (max-width: 560px) {
+    form {
+        padding: 22px 18px;
+    }
+}

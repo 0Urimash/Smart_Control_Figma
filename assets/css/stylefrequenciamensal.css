@@ -1,0 +1,13 @@
+@import url('dashboard.css');
+
+main {
+    padding-top: 32px;
+}
+
+.indicadores {
+    margin-top: 20px;
+}
+
+.relatorio-card {
+    margin-top: 30px;
+}

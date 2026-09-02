@@ -11,9 +11,12 @@
     <main class="container">
         <div class="card">
             <h1>Cadastrar</h1>
-            <form method="post" action="#">
-                <label for="name">Nome completo:</label>
-                <input type="text" name="name" id="name" placeholder="Digite seu nome" required>
+            <form id="formCadastro" method="post" action="#">
+                <label for="nomeCadastro">Nome:</label>
+                <input type="text" name="nome" id="nomeCadastro" placeholder="Digite seu nome" required>
+
+                <label for="sobrenomeCadastro">Sobrenome:</label>
+                <input type="text" name="sobrenome" id="sobrenomeCadastro" placeholder="Digite seu sobrenome">
 
                 <label for="email">E-mail:</label>
                 <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
@@ -26,5 +29,7 @@
             </form>
         </div>
     </main>
+
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
